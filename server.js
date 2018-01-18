@@ -29,7 +29,6 @@ app.post("/", function(req, res) {
     from: "+14152895379",
     body: "Hello from Twilio!"
   });
-  // client.sendMessage();
 });
 
 app.listen(process.env.PORT || 3000, function() {
