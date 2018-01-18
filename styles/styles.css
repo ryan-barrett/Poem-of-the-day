@@ -1,0 +1,21 @@
+.container {
+  padding-bottom: 50px;
+}
+
+.the-title {
+  text-align: center;
+  font-size: 350%;
+}
+
+.the-info {
+  text-align: center;
+}
+
+.header {
+  background-color: #80aaff;
+}
+
+.foots {
+  text-align: center;
+  font-size: 125%;
+}
