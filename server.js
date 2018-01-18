@@ -1,5 +1,3 @@
-let $ = require("jquery");
-
 let express = require("express"),
   bodyParser = require("body-parser");
 
