@@ -1,5 +1,5 @@
 <h1>Poem of the Day</h1>
-<p>Designed to bring a little poetry to the lives of your friends</p>
+<p>Designed to bring a little poetry to the lives of your friends.</p>
 <br/>
 <h2>User Stories</h2>
 <ul>
