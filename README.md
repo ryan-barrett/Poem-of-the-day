@@ -1,6 +1,6 @@
 <h1>Poem of the Day</h1>
 <p>Designed to bring a little poetry to the lives of your friends</p>
-[Imgur](https://i.imgur.com/3Wxjlt7.png)
+<img src="https://i.imgur.com/3Wxjlt7.png"</img
 
 <h2>User Stories</h2>
 <ul>
