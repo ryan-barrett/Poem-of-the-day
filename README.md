@@ -5,7 +5,7 @@
 <ul>
   <li>Users will be able to use their Twilio account to send a random poem / quote to their friends</li>
 </ul>
-[Imgur](https://i.imgur.com/3Wxjlt7.png)
+[Screenshot](https://i.imgur.com/3Wxjlt7.png)
 
 
 
