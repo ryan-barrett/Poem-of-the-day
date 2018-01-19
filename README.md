@@ -18,4 +18,5 @@
   <img src="https://i.imgur.com/wSsHcCU.png"></img>
   <br/>
   <li> Run the server using nodemon or the node server.js command</li>
+  <li> While using a trail account you will only be able to send messages to the number you signed up with</li>
 </ul>
