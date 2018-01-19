@@ -11,6 +11,6 @@
 <ul>
   <li>After cloning run npm install from the command line</li>
   <li>Open the server.js file and replace the placeholder Twilio infromation with your info</li>
-  [Imgur](https://i.imgur.com/wSsHcCU.png)
+  <img src="https://i.imgur.com/wSsHcCU.png"></img>
   <li> Run the server using nodemon or the node server.js command</li>
 </ul>
