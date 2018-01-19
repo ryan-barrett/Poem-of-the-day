@@ -1,4 +1,5 @@
-let dailyPoems = "https://pafmon-walt-whitman-poems.p.mashape.com/poems/";
+let dailyPoems =
+  "http://www.stands4.com/services/v2/poetry.php?uid=6113&tokenid=goA30YdhRjsoIkso&term=grass";
 
 $(document).ready(function() {
   getDailyPoem();
@@ -12,17 +13,16 @@ function getDailyPoem() {
   $.ajax({
     method: "GET",
     url: dailyPoems,
-    dataType: "json",
+    dataType: "html",
     success: function(dataResponse) {
       console.log(dataResponse);
-
-      let poems = dataResponse;
+      $(".daily-poem-content").append(dataResponse);
     },
-    beforeSend: function(xhr) {
-      xhr.setRequestHeader(
-        "X-Mashape-Authorization",
-        "iTKvwAD0gymshgyAlAQFMvbGZFsQp1bgWN4jsnF49Su6wVZTKE"
-      );
-    }
+    error: handleError
   });
+}
+
+function handleError(e) {
+  console.log("uh oh");
+  $("#bookTarget").text("Failed to load books, is the server working?");
 }
