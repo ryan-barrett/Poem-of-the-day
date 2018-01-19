@@ -1,7 +1,8 @@
 {
   "name": "poem-of-the-day",
   "version": "1.0.0",
-  "description": "<h1>Poem of the Day</h1> <p>Designed to bring a little poetry to the lives of your friends</p>",
+  "description":
+    "<h1>Poem of the Day</h1> <p>Designed to bring a little poetry to the lives of your friends</p>",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.2",

@@ -1,5 +1,4 @@
-let dailyPoems =
-  "http://www.stands4.com/services/v2/poetry.php?uid=6113&tokenid=goA30YdhRjsoIkso&term=grass";
+let dailyPoems = "https://talaikis.com/api/quotes/random/";
 
 $(document).ready(function() {
   getDailyPoem();
@@ -16,7 +15,9 @@ function getDailyPoem() {
     dataType: "html",
     success: function(dataResponse) {
       console.log(dataResponse);
-      $(".daily-poem-content").append(dataResponse);
+      let quote = dataResponse.split(":")[1];
+      quote = quote.replace(/,"author"/g, "");
+      $(".daily-poem-content").append(quote);
     },
     error: handleError
   });

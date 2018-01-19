@@ -23,3 +23,6 @@
 .content {
   text-align: center;
 }
+.hidden {
+  display: none;
+}
