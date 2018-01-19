@@ -27,7 +27,7 @@ app.post("/", function(req, res) {
   client.messages.create({
     to: "+1" + req.body.number,
     from: "+14152895379",
-    body: "Hello from Twilio!"
+    body: req.body.quote
   });
 });
 

@@ -18,6 +18,8 @@ function getDailyPoem() {
       let quote = dataResponse.split(":")[1];
       quote = quote.replace(/,"author"/g, "");
       $(".daily-poem-content").append(quote);
+      $(".quoteText").val(quote);
+      $(".phoneNum").val("5303885681");
     },
     error: handleError
   });
