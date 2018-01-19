@@ -1,6 +1,6 @@
 <h1>Poem of the Day</h1>
 <p>Designed to bring a little poetry to the lives of your friends</p>
-![Imgur](https://i.imgur.com/3Wxjlt7.png)
+[Imgur](https://i.imgur.com/3Wxjlt7.png)
 
 <h2>User Stories</h2>
 <ul>
@@ -11,6 +11,6 @@
 <ul>
   <li>After cloning run npm install from the command line</li>
   <li>Open the server.js file and replace the placeholder Twilio infromation with your info</li>
-  ![Imgur](https://i.imgur.com/wSsHcCU.png)
+  [Imgur](https://i.imgur.com/wSsHcCU.png)
   <li> Run the server using nodemon or the node server.js command</li>
 </ul>
