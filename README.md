@@ -1,5 +1,5 @@
 <h1>Poem of the Day</h1>
-<p>Designed to bring a little poetry to the lives of your friends. Uses Twilio to send the poem / quote vis SMS. Sign up here: https://www.twilio.com/ in order to use.</p>
+<p>Designed to bring a little poetry to the lives of your friends. Uses Twilio to send the poem vis SMS. Sign up here: https://www.twilio.com/ to use.</p>
 <br/>
 <h2>User Stories</h2>
 <ul>
