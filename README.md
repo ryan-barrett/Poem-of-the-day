@@ -4,8 +4,9 @@
 <h2>User Stories</h2>
 <ul>
   <li>Users will be able to use their Twilio account to send a random poem / quote to their friends</li>
-  <li><img src="https://i.imgur.com/3Wxjlt7.png" height="60%" width="60%"></li>
-</ul>
+  </ul>
+  <img src="https://i.imgur.com/3Wxjlt7.png" height="60%" width="60%">
+
 
 
 
